@@ -1,0 +1,86 @@
+/* Feuille de style */
+
+html {
+  /* Bordure en haut de la page, 10 pixel, solide, couleur #DDD */
+  border-top:10px solid #DDD;
+  /* Couleur de fond de la page */
+  background-color:#EEE;
+}
+
+body {
+  /* La police est sans serif */
+  font-family:Sans-serif;
+  /* De taille 13px */
+  font-size:13px;
+  /* La page fait 600 pixels de large */
+  width:600px;
+  /* Sa marge est automatique (fait flotter le corps au milieu) */
+  margin:auto;
+  /* Le fond du corps est blanc */
+  background-color:white;
+  /* Avec un espacement de 5 pixels (pour éviter que le texte colle
+   * au coté de la zone blanche */
+  padding:5px;
+}
+
+/* Style appliquées aux balises <h1> */
+h1 {
+  margin:0px;
+  padding:0px;
+}
+
+table {
+  border:0px;
+}
+
+th, td {
+  border:1px solid black;
+  padding:3px;
+}
+
+table {
+  border-collapse:collapse;
+}
+
+thead {
+  background-color:#EEE;
+  border-bottom:2px solid black;
+}
+
+form {
+  line-height:2;
+  font-weight:bold;
+}
+
+input, textarea, select {
+  border:1px solid #DDD;
+  padding:5px;
+  width:400px;
+  color:#AAA;
+}
+
+input:hover, textarea:hover, select:hover {
+  border:1px solid black;
+  color:black;
+}
+
+hr {
+  border:0px;
+  border-bottom:1px dotted #AAA;
+}
+
+img {
+  margin: 10px;
+}
+
+a {
+  color:#CC0000;
+}
+
+a:hover {
+  color:black;
+}
+
+ul {
+  list-style: circle;
+}

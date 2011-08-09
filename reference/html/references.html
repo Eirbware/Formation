@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+   <!-- Le contenu de <head> contient des informations sur le document (titre, 
+        feuilles de styles etc... -->
+  <head>
+    <!-- Le contenu de <title> apparaîtra dans le titre de la fenêtre -->
+    <title>Titre de la page</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  </head>
+
+  <!-- La balise <body> contient le contenu du document -->
+  <body>
+
+    <!-- Les balises h1, h2, h3... servent à faire des titres (hiérarchie) -->
+    <h1>Page d'aide en HTML</h1>
+    <h2>Présentation basique</h2>
+
+    <!-- p = Paragraphe -->
+    <p>
+      Bonjour! Voici <b>un peu de gras</b>, <i>un peu d'italique</i> et de <u>souligné</u>, <i><u>Italique et souligné</u></i>!
+    </p>
+    <p>
+      Un peu de <span style="color:red">texte rouge</span>!
+      <br/><!-- Retour à la ligne (br=break) -->
+      <!-- la balise <a> sert à faire des liens cliquables -->
+      Une autre ligne! <a href="http://www.google.com/">Cliquez ici</a> pour visiter google<br />
+      <!-- Image -->
+      <img src="ff.gif" alt="Texte alternatif" title="Texte au survol" />
+    </p>
+
+    <!-- Séparateur horizontal -->
+    <hr />
+    <h2>Listes</h2>
+    <!-- Liste non ordonnées -->
+    Penser à acheter:
+    <ul>
+      <li>Pain</li>
+      <li>Oeuf</li>
+      <li>Farine</li>
+    </ul>
+    <!-- Listes ordonnées -->
+    <ol>
+      <li>Eplucher les pommes de terres</li>
+      <li>Huiler la poele</li>
+      <li>Faire revenir les pommes de terres avec des oignons</li>
+    </ol>
+
+    <hr />
+    <h2>Tableau</h2>
+    <!-- Un tableau simple -->
+    <table style="border:1px solid black">
+      <!-- En-tête du tableau -->
+      <thead>
+        <!-- La balise <tr> désigne une ligne du tableau -->
+        <tr>
+            <!-- La balise <th> désigne une division de l'en-tête -->
+          <th>Nom</th>
+          <th>Prénom</th>
+        </tr>
+      </thead>
+      <!-- Corps du tableau -->
+      <tbody>
+        <tr>
+          <!-- La balise <td> désigne une division du tableau -->
+          <td>Martin</td>
+          <td>Jaques</td>
+        </tr>
+        <tr>
+          <td>Durand</td>
+          <td>Alain</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr />
+    <!-- Formulaires -->
+    <h2>Formulaire</h2>
+    <!-- La balise "form" doit être présente autour d'un formulaire -->
+    <form action="/">
+      <!-- Input de type texte: champ libre -->
+      Votre nom:<br/>
+      <input type="text" name="nom" /><br />
+
+      <!-- Radio: choix multiples (un seul choix possible) -->
+      <!-- Le <label> sert à rendre le texte cliquable -->
+      Sexe:<br />
+      <label><input type="radio" name="sexe" value="h" /> Homme</label>
+      <label><input type="radio" name="sexe" value="f" /> Femme</label><br />
+
+      <!-- Checkbox: cases à cocher -->
+      Aimez vous le HTML?<br />
+      <label><input type="checkbox" name="aime_html" value="1" /> Oui</label><br />
+
+      <!-- Textarea: zone de texte -->
+      Décrivez vous: <br/>
+      <textarea name="description"></textarea><br />
+
+      <!-- Menu déroulant -->
+      Votre couleur préférée:<br/>
+      <select name="couleur">
+        <option value="0">Rouge</option>
+        <option value="1">Bleu</option>
+        <option value="2">Vert</option>
+      </select>
+      <br /><br />
+
+      <!-- Bouton pour valider le formulaire -->
+      <input type="submit" value="Envoyer le formulaire" />
+    </form> 
+
+  </body>
+</html>
