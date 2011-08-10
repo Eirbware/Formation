@@ -12,3 +12,4 @@ L'architecture des dossiers est la suivante :
 
 * *presentations/* : les slides des différentes formations
 
+* *TDs/* : les travaux dirigés qui pourront être faits pendant les formations
