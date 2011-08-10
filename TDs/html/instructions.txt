@@ -1,0 +1,17 @@
+
+Comment ça marche ?
+===================
+
+Le but de ce TD est simple : Ecrire vos premiers contenus HTML et CSS.
+
+Pour ce faire, vous visualiserez les écrans que vous devez obtenir à 
+l'aide du fichier nommé "capture.jpg" et devrez écrire une page HTML
+produisant le même rendu.
+
+N'oubliez pas que vous pouvez consulter les fichiers à la racine de ce
+dépôt dans le dossier references/.
+
+Les réponses sont toujours fournies dans le sous-dossier reponse/, l'idée
+étant de vous laisser pratiquer sans pour autant vous bloquer.
+
+A vous de jouer !
